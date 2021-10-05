@@ -1,17 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <Jumbotron />
+    <Courses />
+    <Smart />
+    <Learn />
+    <Number />
+    <Blogs />
+    <Newsletter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Blogs from './components/Blogs.vue'
+import Courses from './components/Courses.vue'
+import Header from './components/Header.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import Learn from './components/Learn.vue'
+import Newsletter from './components/Newsletter.vue'
+import Number from './components/Number.vue'
+import Smart from './components/Smart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Jumbotron,
+    Courses,
+    Smart,
+    Learn,
+    Number,
+    Blogs,
+    Newsletter
   }
 }
 </script>
@@ -19,10 +39,10 @@ export default {
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
+  
+  
+  
+  
 }
 </style>
