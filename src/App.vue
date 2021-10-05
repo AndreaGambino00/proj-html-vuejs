@@ -8,12 +8,14 @@
     <Number />
     <Blogs />
     <Newsletter />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Blogs from './components/Blogs.vue'
 import Courses from './components/Courses.vue'
+import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import Jumbotron from './components/Jumbotron.vue'
 import Learn from './components/Learn.vue'
@@ -31,7 +33,8 @@ export default {
     Learn,
     Number,
     Blogs,
-    Newsletter
+    Newsletter,
+    Footer
   }
 }
 </script>
